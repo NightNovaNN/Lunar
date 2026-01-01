@@ -6,6 +6,7 @@ There are 3 versions, **Windows**, **Linux** and **MacOS**, and as of _1/1/2026_
 
 ## Usage
 - Compile and Use
+  
   ```sh
   # Cloning
   git clone https://github.com/NightNovaNN/Lunar
@@ -19,6 +20,7 @@ There are 3 versions, **Windows**, **Linux** and **MacOS**, and as of _1/1/2026_
   # Or if the file is "script.ln", then just ./lunar will auto run
   ```
 - Syntax
+  
   ```lunar
   title <Title>              # Sets title of a window
   clear                      # Clears the screen
@@ -26,3 +28,6 @@ There are 3 versions, **Windows**, **Linux** and **MacOS**, and as of _1/1/2026_
   text <x> <y> <Text>        # Puts text on the screen
   move <steps>               # Makes an object move
   ```
+
+## Versioning
+- `Version 0.1`: Release _1/1/2026_, The first version with **title, clear, rect, text and move** instructions.
