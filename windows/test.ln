@@ -1,0 +1,5 @@
+title Hello World
+clear
+rect 50 100 80 80
+text 10 10 Hello World
+move 2
