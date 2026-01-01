@@ -6,19 +6,36 @@ There are 3 versions, **Windows**, **Linux** and **MacOS**, and as of _1/1/2026_
 
 ## Usage
 - Compile and Use
+  - General
   
-  ```sh
-  # Cloning
-  git clone https://github.com/NightNovaNN/Lunar
-  cd Lunar
+    ```sh
+    # Cloning
+    git clone https://github.com/NightNovaNN/Lunar
+    cd Lunar
+  
+    # Compiling
+    gcc lunar.c parse.c -O3 -lgdi32 -o lunar
+  
+    # Run
+    ./lunar test.ln
+    # Or if the file is "script.ln", then just ./lunar will auto run
+    ```
+  - Using Powershell
+    
+    ```sh
+    # Cloning
+    git clone https://github.com/NightNovaNN/Lunar
+    cd Lunar
 
-  # Compiling
-  gcc lunar.c parse.c -O3 -lgdi32 -o lunar
+    # Compile
+    . .\build.ps1
+    buildln
 
-  # Run
-  ./lunar test.ln
-  # Or if the file is "script.ln", then just ./lunar will auto run
-  ```
+    # Run
+    ./lunar test.ln
+    # Or if the file is "script.ln", then just ./lunar will auto run
+    ```
+    
 - Syntax
   
   ```lunar
